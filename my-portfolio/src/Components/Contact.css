@@ -1,0 +1,32 @@
+/* Contact.css */
+
+#contact {
+  padding: 60px 20px;
+}
+
+#contact h2 {
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #333;
+}
+
+#contact p {
+  font-size: 1.1em;
+  color: #555;
+}
+
+#contact a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Style for icons */
+#contact svg {
+  margin-right: 8px;
+  vertical-align: middle;
+  color: #007bff;
+}

@@ -1,0 +1,64 @@
+/* App.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(to bottom, #000000, #505050);
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  min-height: 100vh; /* Ensures the gradient covers the full viewport height */
+}
+
+/* Remove redundant font-family declaration */
+.App {
+  /* font-family: "Helvetica Neue", Arial, sans-serif; */
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 60px;
+  background-color: #f0f2f5; /* Optional for readability */
+  padding: 20px; /* Optional for spacing */
+  border-radius: 8px; /* Optional for aesthetics */
+  animation: fade-in 1s ease-in;
+}
+
+h2 {
+  position: relative;
+  padding-bottom: 10px;
+}
+
+h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 50px;
+  background-color: #007bff;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Fade-in Animation */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
